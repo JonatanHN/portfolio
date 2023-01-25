@@ -5,12 +5,15 @@ import * as AllStyles from "../css/all.css"
 const IndexPage = () => {
   return (
 		<>
+			<head>
+				<title>
+					Inicio
+				</title>
+				<link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon" />
+			</head>
 			<main>
-				<head>
-					<title>Inicio</title>
-				</head>
 				<div>
-					<h1>Hi, soy jonatan hernandez</h1>
+					<h1>Hi, Soy Jonatan Hernandez</h1>
 					<br />
 					<Link to="/about">Ir a about me</Link>
 				</div>
